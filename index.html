@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ningrat</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;900&family=Poppins:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/all.min.css" />
+
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!-- navbar section -->
+		<nav class="navbar navbar-expand-lg bg-light fixed-top shadow">
+			<div class="container">
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+						<li class="nav-item mx-2 border-bottom-black">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link active" href="#about">About</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link active" href="#blog">Blog</a>
+						</li>
+						<li class="nav-item mx-2">
+							<a class="nav-link active" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- end navbar section -->
+		<!-- hero Section -->
+		<main class="hero bg-image vh-100 position-relative" id="hero">
+			<div class="overlay position-absolute top-0 start-0 h-100 w-100">
+				<div
+					class="center-caption h-100 d-flex justify-content-center align-items-center"
+				>
+					<div class="captions d-flex flex-column align-items-center">
+						<h3
+							class="lead my-3 fa-1x text-white d-flex justify-content-center align-items-center"
+						>
+							<span class="d-flex iam">I Am</span>
+							<span class="fw-bolder person-name">Ningrat</span>
+						</h3>
+						<ul class="list-unstyled d-flex hero-icons mt-3">
+							<li>
+								<a href="#"> <i class="fa-brands fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a href="#"> <i class="fa-brands fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="#"><i class="fa-brands fa-youtube"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- End hero Section -->
+
+		<!-- About section -->
+		<section class="about py-6" id="about">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-5 d-flex justify-content-center">
+						<div class="about-main-image w-75 position-relative">
+							<img src="img/hero.jpg" alt="" class="w-100" />
+							<div class="about-bg-image position-absolute w-100 h-100"></div>
+						</div>
+					</div>
+					<div class="col-12 col-lg-7 mt-5 mt-lg-0">
+						<h3 class="fw-bolder mb-0 montserrat">About Me.</h3>
+						<p class="text-muted fs-7">
+							I am <span class="fw-bolder montserrat">Ningrat Henji Adhythio</span>
+							I am passionate about web development and have been involved in various projects including building web applications using frameworks like CodeIgniter and Laravel. In my free time, I enjoy learning new technologies and improving my coding skills.
+						</p>
+							<button class="btn btn-outline-primary-color px-4">
+								Contact Me
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- portfolio section -->
+		<section class="portfolio py-6" id="works">
+			<div class="container">
+				<div class="row">
+					<div class="section-header text-center mb-5">
+						<h3 class="text-capitalize montserrat">portfolio.</h3>
+					</div>
+				</div>
+				<div class="row">
+					<ul class="nav nav-pills d-flex justify-content-center">
+						<li class="nav-item">
+							<a
+								class="nav-link text-dark fw-bolder position-relative underline"
+								href="#"
+								>All</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark fw-bolder" href="#">Brand</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link text-dark fw-bolder" href="#">Design</a>
+						</li>
+
+						<li class="nav-item">
+							<a class="nav-link text-dark fw-bolder" href="#">Graphic</a>
+						</li>
+					</ul>
+				</div>
+				<div class="row">
+					<div class="col-12 col-md-6 col-lg-4 my-3">
+						<div class="portfolio-card position-relative">
+							<div class="portfolio-image">
+								<img src="img/portfolio/1.jpg" class="w-100" alt="" />
+								<div
+									class="portfolio-overlay position-absolute bg-white d-flex flex-column justify-content-center align-items-center"
+								>
+									<p class="fw-bold">Web design</p>
+									<div class="portfolio-icons-group d-flex">
+										<div class="icon">
+											<div class="icon-inner rounded-circle">
+												<i class="fa fa-chain-broken"></i>
+											</div>
+										</div>
+
+										<div class="icon">
+											<a
+												href="#"
+												data-bs-toggle="modal"
+												data-bs-target="#exampleModal"
+											>
+												<div class="icon-inner rounded-circle">
+													<i class="fa fa-search-plus"></i>
+												</div>
+											</a>
+										</div>
+										<!-- Modal -->
+										<div
+											class="modal fade border-0"
+											id="exampleModal"
+											tabindex="-1"
+											aria-labelledby="exampleModalLabel"
+											aria-hidden="true"
+										>
+											<div class="modal-dialog bg-transparent">
+												<button
+													type="button"
+													class="btn-close float-end"
+													data-bs-dismiss="modal"
+													aria-label="Close"
+												></button>
+												<div class="modal-content bg-transparent">
+													<div class="modal-body bg-transparent">
+														<img
+															src="img/portfolio/1.jpg"
+															class="w-100"
+															alt=""
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 my-3">
+						<div class="portfolio-card position-relative">
+							<div class="portfolio-image">
+								<img src="img/portfolio/2.jpg" class="w-100" alt="" />
+								<div
+									class="portfolio-overlay position-absolute bg-white d-flex flex-column justify-content-center align-items-center"
+								>
+									<p class="fw-bold">Web design</p>
+									<div class="portfolio-icons-group d-flex">
+										<div class="icon">
+											<div class="icon-inner rounded-circle">
+												<i class="fa fa-chain-broken"></i>
+											</div>
+										</div>
+
+										<div class="icon">
+											<a
+												href="#"
+												data-bs-toggle="modal"
+												data-bs-target="#exampleModal"
+											>
+												<div class="icon-inner rounded-circle">
+													<i class="fa fa-search-plus"></i>
+												</div>
+											</a>
+										</div>
+										<!-- Modal -->
+										<div
+											class="modal fade border-0"
+											id="exampleModal"
+											tabindex="-1"
+											aria-labelledby="exampleModalLabel"
+											aria-hidden="true"
+										>
+											<div class="modal-dialog bg-transparent">
+												<button
+													type="button"
+													class="btn-close float-end"
+													data-bs-dismiss="modal"
+													aria-label="Close"
+												></button>
+												<div class="modal-content bg-transparent">
+													<div class="modal-body bg-transparent">
+														<img
+															src="img/portfolio/2.jpg"
+															class="w-100"
+															alt=""
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 my-3">
+						<div class="portfolio-card position-relative">
+							<div class="portfolio-image">
+								<img src="img/portfolio/3.jpg" class="w-100" alt="" />
+								<div
+									class="portfolio-overlay position-absolute bg-white d-flex flex-column justify-content-center align-items-center"
+								>
+									<p class="fw-bold">Web design</p>
+									<div class="portfolio-icons-group d-flex">
+										<div class="icon">
+											<div class="icon-inner rounded-circle">
+												<i class="fa fa-chain-broken"></i>
+											</div>
+										</div>
+
+										<div class="icon">
+											<a
+												href="#"
+												data-bs-toggle="modal"
+												data-bs-target="#exampleModal"
+											>
+												<div class="icon-inner rounded-circle">
+													<i class="fa fa-search-plus"></i>
+												</div>
+											</a>
+										</div>
+										<!-- Modal -->
+										<div
+											class="modal fade border-0"
+											id="exampleModal"
+											tabindex="-1"
+											aria-labelledby="exampleModalLabel"
+											aria-hidden="true"
+										>
+											<div class="modal-dialog bg-transparent">
+												<button
+													type="button"
+													class="btn-close float-end"
+													data-bs-dismiss="modal"
+													aria-label="Close"
+												></button>
+												<div class="modal-content bg-transparent">
+													<div class="modal-body bg-transparent">
+														<img
+															src="img/portfolio/1.jpg"
+															class="w-100"
+															alt=""
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 my-3">
+						<div class="portfolio-card position-relative">
+							<div class="portfolio-image">
+								<img src="img/portfolio/4.jpg" class="w-100" alt="" />
+								<div
+									class="portfolio-overlay position-absolute bg-white d-flex flex-column justify-content-center align-items-center"
+								>
+									<p class="fw-bold">Web design</p>
+									<div class="portfolio-icons-group d-flex">
+										<div class="icon">
+											<div class="icon-inner rounded-circle">
+												<i class="fa fa-chain-broken"></i>
+											</div>
+										</div>
+
+										<div class="icon">
+											<a
+												href="#"
+												data-bs-toggle="modal"
+												data-bs-target="#exampleModal"
+											>
+												<div class="icon-inner rounded-circle">
+													<i class="fa fa-search-plus"></i>
+												</div>
+											</a>
+										</div>
+										<!-- Modal -->
+										<div
+											class="modal fade border-0"
+											id="exampleModal"
+											tabindex="-1"
+											aria-labelledby="exampleModalLabel"
+											aria-hidden="true"
+										>
+											<div class="modal-dialog bg-transparent">
+												<button
+													type="button"
+													class="btn-close float-end"
+													data-bs-dismiss="modal"
+													aria-label="Close"
+												></button>
+												<div class="modal-content bg-transparent">
+													<div class="modal-body bg-transparent">
+														<img
+															src="img/portfolio/1.jpg"
+															class="w-100"
+															alt=""
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 my-3">
+						<div class="portfolio-card position-relative">
+							<div class="portfolio-image">
+								<img src="img/portfolio/5.jpg" class="w-100" alt="" />
+								<div
+									class="portfolio-overlay position-absolute bg-white d-flex flex-column justify-content-center align-items-center"
+								>
+									<p class="fw-bold">Web design</p>
+									<div class="portfolio-icons-group d-flex">
+										<div class="icon">
+											<div class="icon-inner rounded-circle">
+												<i class="fa fa-chain-broken"></i>
+											</div>
+										</div>
+
+										<div class="icon">
+											<a
+												href="#"
+												data-bs-toggle="modal"
+												data-bs-target="#exampleModal"
+											>
+												<div class="icon-inner rounded-circle">
+													<i class="fa fa-search-plus"></i>
+												</div>
+											</a>
+										</div>
+										<!-- Modal -->
+										<div
+											class="modal fade border-0"
+											id="exampleModal"
+											tabindex="-1"
+											aria-labelledby="exampleModalLabel"
+											aria-hidden="true"
+										>
+											<div class="modal-dialog bg-transparent">
+												<button
+													type="button"
+													class="btn-close float-end"
+													data-bs-dismiss="modal"
+													aria-label="Close"
+												></button>
+												<div class="modal-content bg-transparent">
+													<div class="modal-body bg-transparent">
+														<img
+															src="img/portfolio/1.jpg"
+															class="w-100"
+															alt=""
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-4 my-3">
+						<div class="portfolio-card position-relative">
+							<div class="portfolio-image">
+								<img src="img/portfolio/6.jpg" class="w-100" alt="" />
+								<div
+									class="portfolio-overlay position-absolute bg-white d-flex flex-column justify-content-center align-items-center"
+								>
+									<p class="fw-bold">Web design</p>
+									<div class="portfolio-icons-group d-flex">
+										<div class="icon">
+											<div class="icon-inner rounded-circle">
+												<i class="fa fa-chain-broken"></i>
+											</div>
+										</div>
+
+										<div class="icon">
+											<a
+												href="#"
+												data-bs-toggle="modal"
+												data-bs-target="#exampleModal"
+											>
+												<div class="icon-inner rounded-circle">
+													<i class="fa fa-search-plus"></i>
+												</div>
+											</a>
+										</div>
+										<!-- Modal -->
+										<div
+											class="modal fade border-0"
+											id="exampleModal"
+											tabindex="-1"
+											aria-labelledby="exampleModalLabel"
+											aria-hidden="true"
+										>
+											<div class="modal-dialog bg-transparent">
+												<button
+													type="button"
+													class="btn-close float-end"
+													data-bs-dismiss="modal"
+													aria-label="Close"
+												></button>
+												<div class="modal-content bg-transparent">
+													<div class="modal-body bg-transparent">
+														<img
+															src="img/portfolio/1.jpg"
+															class="w-100"
+															alt=""
+														/>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- blog section -->
+		<section class="blog py-6 bg-gray" id="blog">
+			<div class="container">
+				<div class="row">
+					<div class="section-header text-center mb-5">
+						<h3 class="text-capitalize montserrat">blog.</h3>
+					</div>
+				</div>
+				<div class="row">
+					<!-- <div
+						id="carouselExampleIndicators2"
+						class="carousel slide"
+						data-bs-ride="true"
+					>
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators2"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+								aria-label="Slide 1"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators2"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators2"
+								data-bs-slide-to="2"
+								aria-label="Slide 3"
+							></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="testimonial text-center">
+									<div class="image-container w-50 mb-3 m-auto">
+										<img
+											class="rounded-circle w-25"
+											src="img/clients/1 (1).jpg"
+											alt=""
+										/>
+									</div>
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Saepe iusto aut facilis laborum nostrum perferendis.
+										Adipisci fugiat cupiditate a est obcaecati ab, placeat
+										magni, sed illum tempora, maxime quisquam minus?
+									</p>
+									<h4 class="fs-5 fw-bold">Alex Smith</h4>
+									<h6 class="fs-6 text-muted fw-bold">Envato Customer</h6>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="testimonial text-center">
+									<div class="image-container w-50 mb-3 m-auto">
+										<img
+											class="rounded-circle w-25"
+											src="img/clients/1 (1).jpg"
+											alt=""
+										/>
+									</div>
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Saepe iusto aut facilis laborum nostrum perferendis.
+										Adipisci fugiat cupiditate a est obcaecati ab, placeat
+										magni, sed illum tempora, maxime quisquam minus?
+									</p>
+									<h4 class="fs-5 fw-bold">Alex Smith</h4>
+									<h6 class="fs-6 text-muted fw-bold">Envato Customer</h6>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="testimonial text-center">
+									<div class="image-container w-50 mb-3 m-auto">
+										<img
+											class="rounded-circle w-25"
+											src="img/clients/1 (1).jpg"
+											alt=""
+										/>
+									</div>
+									<p>
+										Lorem ipsum dolor sit amet consectetur adipisicing elit.
+										Saepe iusto aut facilis laborum nostrum perferendis.
+										Adipisci fugiat cupiditate a est obcaecati ab, placeat
+										magni, sed illum tempora, maxime quisquam minus?
+									</p>
+									<h4 class="fs-5 fw-bold">Alex Smith</h4>
+									<h6 class="fs-6 text-muted fw-bold">Envato Customer</h6>
+								</div>
+							</div>
+						</div>
+					</div> -->
+					<div
+						id="carouselExampleIndicators2"
+						class="carousel slide"
+						data-bs-ride="true"
+					>
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators2"
+								data-bs-slide-to="0"
+								class="active"
+								aria-current="true"
+								aria-label="Slide 1"
+							></button>
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators2"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"
+							></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="row">
+									<div class="col-12 col-md-6 col-lg-4">
+										<div class="blog-card bg-white shadow-sm">
+											<div class="card-image">
+												<img
+													src="img/blog/1.jpg"
+													class="w-100 blog-image"
+													alt="image"
+												/>
+											</div>
+											<div class="card-text px-3 py-4">
+												<h6 class="text-muted fw-bold">Trends</h6>
+												<h4 class="fw-bolder montserrat">
+													Top wordPress Themes and Plugins for Hotels, Travel
+												</h4>
+												<a href="#" class="link-dark">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<div class="blog-card bg-white shadow-sm">
+											<div class="card-image">
+												<img
+													src="img/blog/2.jpg"
+													class="w-100 blog-image"
+													alt="image"
+												/>
+											</div>
+											<div class="card-text px-3 py-4">
+												<h6 class="text-muted fw-bold">Trends</h6>
+												<h4 class="fw-bolder">
+													Top wordPress Themes and Plugins for Hotels, Travel
+												</h4>
+												<a href="#" class="link-dark">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<div class="blog-card bg-white shadow-sm">
+											<div class="card-image">
+												<img
+													src="img/blog/3.jpg"
+													class="w-100 blog-image"
+													alt="image"
+												/>
+											</div>
+											<div class="card-text px-3 py-4">
+												<h6 class="text-muted fw-bold">Trends</h6>
+												<h4 class="fw-bolder">
+													Top wordPress Themes and Plugins for Hotels, Travel
+												</h4>
+												<a href="#" class="link-dark">Read More</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="carousel-item">
+								<div class="row">
+									<div class="col-12 col-md-6 col-lg-4">
+										<div class="blog-card bg-white shadow-sm">
+											<div class="card-image">
+												<img
+													src="img/blog/4.jpg"
+													class="w-100 blog-image"
+													alt="image"
+												/>
+											</div>
+											<div class="card-text px-3 py-4">
+												<h6 class="text-muted fw-bold">Trends</h6>
+												<h4 class="fw-bolder">
+													Top wordPress Themes and Plugins for Hotels, Travel
+												</h4>
+												<a href="#" class="link-dark">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<div class="blog-card bg-white shadow-sm">
+											<div class="card-image">
+												<img
+													src="img/blog/1.jpg"
+													class="w-100 blog-image"
+													alt="image"
+												/>
+											</div>
+											<div class="card-text px-3 py-4">
+												<h6 class="text-muted fw-bold">Trends</h6>
+												<h4 class="fw-bolder">
+													Top wordPress Themes and Plugins for Hotels, Travel
+												</h4>
+												<a href="#" class="link-dark">Read More</a>
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-4">
+										<div class="blog-card bg-white shadow-sm">
+											<div class="card-image">
+												<img
+													src="img/blog/2.jpg"
+													class="w-100 blog-image"
+													alt="image"
+												/>
+											</div>
+											<div class="card-text px-3 py-4">
+												<h6 class="text-muted fw-bold">Trends</h6>
+												<h4 class="fw-bolder">
+													Top wordPress Themes and Plugins for Hotels, Travel
+												</h4>
+												<a href="#" class="link-dark">Read More</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end blog section -->
+		<!-- contact section -->
+		<section class="contact py-6" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="section-header text-center mb-5">
+						<h3 class="text-capitalize montserrat">contact us.</h3>
+					</div>
+				</div>
+					</div>
+				</div>
+				<div class="row w-75 m-auto">
+					<form>
+						<div class="row">
+							<div class="col-12 col-lg-6">
+								<input type="text" class="form-control" placeholder="Name" />
+							</div>
+							<div class="col-12 col-lg-6">
+								<input type="email" class="form-control" placeholder="Email" />
+							</div>
+						</div>
+						<div class="row my-3">
+							<div class="col-12">
+								<textarea
+									name="message"
+									id="message"
+									cols="30"
+									rows="4"
+									placeholder="Message"
+									class="form-control"
+								></textarea>
+							</div>
+						</div>
+						<input
+							type="submit"
+							value="Submit"
+							class="btn btn-primary-color px-4"
+						/>
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- end contact section -->
+		<!-- footer section -->
+		<footer class="py-5">
+			<p class="text-muted text-center m-0 fw-bold">
+				Copy Right 2018 &copy; Ningrat Henji All Rights Reserved
+			</p>
+		</footer>
+		<!-- end footer section -->
+		<script src="js/bootstrap.bundle.js"></script>
+	</body>
+</html>
